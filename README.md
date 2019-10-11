@@ -1,4 +1,5 @@
 # AllureEnvironment
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=SiarheiFrunchak_AllureEnvironment)](https://sonarcloud.io/dashboard?id=SiarheiFrunchak_AllureEnvironment)
 
 Script for generation the **environment.properties** file, according with pipeline configuration and dependencies
 

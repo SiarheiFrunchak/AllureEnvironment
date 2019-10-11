@@ -16,9 +16,9 @@ PORT = environ.get("TEST_STAND_PORT", conf.get_string("test_port"))
 
 
 def get_runner_type():
-    if HOST == "http://your_host":
+    if HOST == "https://your_host":
         return "EgInstance"
-    elif HOST == "http://localhost":
+    elif HOST == "https://localhost":
         return "LocalInstance"
     else:
         return "Something Else"
@@ -42,5 +42,5 @@ def main():
         f.close()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
